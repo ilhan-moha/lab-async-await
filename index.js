@@ -1,4 +1,4 @@
-/* const postList = document.getElementById('post-list');
+const postList = document.getElementById('post-list');
 
 function displayPosts(posts){
     posts.forEach(post => {
@@ -26,9 +26,9 @@ async function getPosts() {
 
 getPosts();
 
- */
 
-// Function to Display Posts
+
+/* // Function to Display Posts
 function displayPosts(posts) {
   const postList = document.getElementById('post-list');
   
@@ -72,4 +72,4 @@ if (document.readyState === 'loading') {
   document.addEventListener('DOMContentLoaded', getPosts);
 } else {
   getPosts();
-}
+} */
